@@ -1,0 +1,11 @@
+.ball{
+  width: 150px;
+  position: relative;
+}
+button{
+  position: absolute;
+  bottom: 10px;
+}
+.startBtn{
+  left: 5px;
+}
