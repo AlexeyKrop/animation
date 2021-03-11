@@ -17,6 +17,7 @@ function startAnimation(){
 }
 
 function beginAnimation(){
+    startBtn.textContent = 'Старт';
   if(!isActive){
     animationInterval = requestAnimationFrame(startAnimation);   
     isActive = true;
