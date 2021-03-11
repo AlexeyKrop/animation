@@ -9,6 +9,9 @@ let isActive = false;
 function startAnimation(){
   animationInterval = requestAnimationFrame(startAnimation);
   count++;
+  if(count > 1200){
+    cancelAnimationFrame(animationInterval);
+  }
   ball.style.left = count + 'px';
   startBtn.textContent = 'Cтоп';
 }
